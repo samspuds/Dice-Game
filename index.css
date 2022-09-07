@@ -1,0 +1,100 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 900px;
+  height: 600px;
+  background-color: #ff1b6b;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid;
+}
+#message {
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-weight: 900;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+}
+#player1 {
+  background-color: #a273b5;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  border-width: 5px;
+  border-style: solid;
+}
+#scoreboard1 {
+}
+.dice {
+  background-color: #ffd9e6;
+  height: 300px;
+  width: 300px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 250px;
+  margin: 0 auto;
+  border-width: 5px;
+  border-style: solid;
+}
+#player2 {
+  background-color: #a273b5;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  border-width: 5px;
+  border-style: solid;
+}
+#scoreboard2 {
+}
+#dice-roll2 {
+  /* background-color: aliceblue;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px; */
+}
+
+.btns {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+#dice-roll {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  background-color: #45caff;
+  margin-top: -5px;
+  font-size: large;
+  font-weight: 900;
+}
+
+#reset {
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  margin-top: -5px;
+  font-size: large;
+  font-weight: 900;
+  color: white;
+  border-color: black;
+  border-width: 3px;
+}
